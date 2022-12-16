@@ -1,0 +1,16 @@
+INTERACTIVE_MODELS_PATH: "./weights"
+EXPS_PATH: "./experiments"
+LIVER_MODELS_PATH: "./experiments/Liver/r34_dh128/002_first-try/checkpoints"
+SPLEEN_MODELS_PATH: "./experiments/spleen/r34_dh128/053_first-try/checkpoints"
+MNM_MODELS_PATH: "./weights"
+
+LIVER_PATH: "./datasets/Liver"
+SPLEEN_PATH: "./datasets/Task09_Spleen"
+
+# You can download the weights for HRNet from the repository:
+# https://github.com/HRNet/HRNet-Image-Classification
+IMAGENET_PRETRAINED_MODELS:
+  HRNETV2_W18: "./pretrained_models/hrnetv2_w18_imagenet_pretrained.pth"
+  HRNETV2_W32: "./pretrained_models/hrnetv2_w32_imagenet_pretrained.pth"
+  HRNETV2_W48: "./pretrained_models/hrnetv2_w48_imagenet_pretrained.pth"
+  R3D34_K_200EP: "./weights/r3d34_K_200ep.pth"
